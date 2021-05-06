@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const url = 'https://random-words-api.vercel.app/word';
 axios
 .get(url)
-.then(res => console.log(chalk.bgRedBright(res.data[0].word)))
+.then(res => console.log(chalk.bgBlue(res.data[0].word)))
 
 // --------------------------------------------------
 // PART 1 : CREATE THE PROJECT
